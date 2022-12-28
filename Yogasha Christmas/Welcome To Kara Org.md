@@ -31,8 +31,12 @@ find /var/lib/docker/ -name secret_note.txt
 and I found the file exists in two folders
 ![secret_notes](https://user-images.githubusercontent.com/52073989/209802432-8f4feb86-5fab-46fc-9183-69c3fe253d43.png)
 The first one is a character special file, to understand the character special file read, to know about the special character files check this [answer](https://unix.stackexchange.com/a/60147)
+
 ![special_file](https://user-images.githubusercontent.com/52073989/209802434-a0a6fe18-c3bb-4a59-8fd1-366afbe934dd.png)
+
 by reading the second file, we got the Flag!
+
 ![reading the flag](https://user-images.githubusercontent.com/52073989/209802431-3a1344a1-dac7-4d6a-bfab-78858300e4ad.png)
+
 The challenge was nice and simple, it only required a bit of experience with docker or having the time to do some research!
 
